@@ -10,7 +10,7 @@
 <body>
     <!-- header start -->
     <header class="header-container">
-        <navbar class="navbar-container">
+        <nav class="navbar-container">
                 <div class="logo">
                     <h1>ORTHOC</h1>
                 </div>
@@ -21,12 +21,14 @@
                         <li><a href="#">DEPARTMENTS</a></li>
                         <li><a href="#">DOCTORS</a></li>
                         <li><a href="#">CONTACT US</a></li>
-                        <button class="search-btn">
-                            <i class="fa-solid fa-magnifying-glass"></i>
-                        </button>
+                        <li>
+                            <button class="search-btn">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </button>
+                        </li>    
                     </ul>
                 </div>
-        </navbar>
+        </nav>
         <div class="content-slide">
             <h2 class="cont-head">WE PROVDE BEST HEALTHCARE</h2>
             <P class="cont-text">Explicabo esse amet tempora quibusdam laudantium, laborum eaque magnam 
@@ -40,7 +42,7 @@
     <section class="section-continer">
         <div class="sec-head">
             <h2>OUR DEPARTMENT</h2>
-            <P>Asperiores sunt consectetur impedit nulla molestiae 
+            <P class="sec-para">Asperiores sunt consectetur impedit nulla molestiae 
                 delectus repellat laborum dolores doloremque accusantiums</P>
         </div>
         <div class="sec-grid-col">
@@ -109,18 +111,101 @@
             <div class="doc-card">
                 <img src="images/d2.jpg" alt="doc" class="doc-image">
                 <div class="doc-name">
-                    <h2>Elina Josh</h2>
+                    <h2>Adam View</h2>
                     <p>Doctor</p>
                 </div>    
             </div>
             <div class="doc-card">
                 <img src="images/d3.jpg" alt="doc" class="doc-image">
                 <div class="doc-name">
-                    <h2>Elina Josh</h2>
+                    <h2>Mia Mike</h2>
                     <p>Doctor</p>
                 </div>    
             </div>
-        </div>        
-    </section> 
+        </div>    
+        <div class="doc-card-btn">
+            <button class="card-btn">View All</button>
+        </div>    
+    </section>
+    <section class="doctors-contact">
+        <div class="contact-head">
+            <h2>GET IN TOUCH</h2>
+        </div>
+        <div class="contact-form">
+            <form class="form">
+                <div class="item1">                 
+                    <input type="text" alt="name" class="input" placeholder="Your Name">                   
+                    <input type="text" alt="name" class="input" placeholder="Phone Number">
+                </div>
+                <div class="item2">                 
+                    <input type="text" alt="name" class="item-emai input" placeholder="Email">                   
+                </div>
+                <div class="item3">
+                    <textarea rows="20" placeholder="Write Your Message" class="input"></textarea>
+                </div>
+                <button type="submit" class="contact-btn">SEND</button>    
+            </form>
+            <div class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=..."
+                    width="600"
+                    height="450"
+                    style="border:0;"
+                    allowfullscreen=""
+                    loading="lazy">
+                </iframe>
+            </div>
+        </div>
+    </section>
+    <section class="testimonial">
+        <h1>TESTIMONIAL</h1>
+            <div class="test-profile">
+                <img src="images\client.jpg" alt="men" class="test-image">
+            </div>
+        <h2>Alan Emerson</h2>
+        <p>Enim consequatur odio assumenda voluptas voluptatibus 
+            esse nobis officia. Magnam, aspernatur nostrum explicabo, 
+            distinctio laudantium delectus deserunt quia quidem magni 
+            corporis earum inventore totam consectetur corrupti! Corrupti,
+            nihil sunt? Natus</p>
+        <div class="test-btn">
+            <button class="left-btn">Left</button>
+            <button class="right-btn">Right</button>
+        </div>    
+    </section>
+    <footer class="doc-footer">
+        <div class="footer-grid">    
+            <div class="fot-addres">
+                <h2>Reach at..</h2>
+                <p>Location</p>
+                <p>Call +01 12345678900</p>
+                <p>demo@gmail.com</p>
+            </div>
+            <div class="fot-about">
+                <h2>About</h2>
+                <p>Beatae provident nobis mollitia magnam voluptatum, 
+                    unde dicta facilis minima veniam corporis laudantium 
+                    alias tenetur eveniet illum reprehenderit fugit a delectus 
+                    officiis blanditiis ea.</p>
+            </div>
+            <div class="fot-links">
+                <h2>Links</h2>
+                <p>Home</p>
+                <p>Departments</p>
+                <p>Doctors</p>
+                <p>Contact Us</p>
+            </div>
+            <div class="fot-letter">
+                <h2>Newsletter</h2>
+                  <input type="text">
+                <div>    
+                    <button>Subscribe</button>
+                </div>    
+            </div>
+        </div>    
+        <div class="footer-end">
+            <h2>2026 All Right Reserved By JAI</h2>
+        </div>
+    </footer>
 </body>
 </html>
